@@ -1,5 +1,7 @@
 # Projet Systèmes d'exploitation : Démon information système
 
+Dans le fichier daemon.c, V(empty) devrait être fait après le V(mutex) mais j'ai décidé de le mettre à la place où il est pour que le client qui occupe une ressource reste dans la file de shm. 
+
 ## Pré-requis :
 - Installer Make
 - Système d'exploitation Linux 
